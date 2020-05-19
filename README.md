@@ -60,14 +60,23 @@
 
 22. Во компонентата pnlPanela1 внесете две компоненти од типот ТеxtBox со име txtOperand1 и txtOperand2 и по една од типот Label и Button со имиња lblRezultat и btnSoberi, соодветно.    
 
-23. Испрограмирајте го копчето btnSoberi  со следниот код:   
+23. Испрограмирајте го копчето btnSoberi  со следниот код:
+
+24. Извршете ја апликацијата.
+
+
+
+
+
+
+
 ```
 int op1 = Convert.ToInt32(txtOperand1.Text);          
 int op2 = Convert.ToInt32(txtOperand2.Text);    
 lblRezultat.Text = Convert.ToString(op1 + op2);
 ```
 
-24. Извршете ја апликацијата.    
+    
 
 25. За да следното извршување, апликацијата првично ја прикаже страницата Default2.aspx, наместо Default.aspx, во Solution Explorer, лоцирајте ја страницата Default.aspx и со десен клик врз нејзиното име, изберете ја ставката Set as Start Page од менито кое се појавува.    
 
