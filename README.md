@@ -60,7 +60,8 @@
 
 22. Во компонентата pnlPanela1 внесете две компоненти од типот ТеxtBox со име txtOperand1 и txtOperand2 и по една од типот Label и Button со имиња lblRezultat и btnSoberi, соодветно.    
 
-23. Испрограмирајте го копчето btnSoberi  со следниот код:
+23. Испрограмирајте го копчето btnSoberi  со следниот код:<br />
+![Screenshot (174)](https://user-images.githubusercontent.com/48455819/82345351-752ad500-99f5-11ea-86ee-890ebc655a7a.png)<br/>
 
 24. Извршете ја апликацијата.
 
@@ -68,12 +69,8 @@
 
 26. Во табелата, надвор од pnlPanela, внесете компонента од типот CheckBox. Именувајте ја како chbVidlivo и на својството Text доделете му вредност “Видливо”.    
 
-27. Двојно кликнете врз chbVidlivo и внесете го следниот код:    
- 
-if (chbVidlivo.Checked)  
-               pnlPanela.Visible = true;  
-        else      
-                 pnlPanela.Visible=false;     
+27. Двојно кликнете врз chbVidlivo и внесете го следниот код:<br /> 
+![Screenshot (176)](https://user-images.githubusercontent.com/48455819/82345535-ab685480-99f5-11ea-835c-0f9b8f01a935.png)<br />  
 
 28. Извршете ја апликацијата. Дали апликацијата го има очекуваното поведение?  -Не, затоа што AutoPostBack својството на chbVidlivo е по диголт false, а ние не го променивме. 
 
